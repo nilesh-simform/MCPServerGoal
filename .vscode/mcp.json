@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "expense-tracker": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["build/index.js"],
+      "cwd": "${workspaceFolder}",
+      "dev": {
+        "watch": "src/**/*.js",
+        "debug": {
+          "type": "node"
+        }
+      }
+    }
+  },
+  "inputs": []
+}
